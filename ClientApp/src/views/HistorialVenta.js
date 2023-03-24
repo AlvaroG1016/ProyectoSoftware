@@ -230,7 +230,7 @@ const HistorialVenta = () => {
                         </Col>
                         <Col sm={4}>
                             <FormGroup>
-                                <Label>IGV (18%):</Label>
+                                <Label>IVA (19%):</Label>
                                 <Input bsSize="sm" disabled value={detalleVenta.impuesto}/>
                             </FormGroup>
                         </Col>

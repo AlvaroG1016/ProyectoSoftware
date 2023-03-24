@@ -124,7 +124,7 @@ const DashBoard = () => {
                             <div className="row no-gutters align-items-center">
                                 <div className="col mr-2">
                                     <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                        Cantidad de Ventas</div>
+                                        Cantidad de Arriendos</div>
                                     <div className="h5 mb-0 font-weight-bold text-gray-800">{ (config.totalVentas!= undefined) ? config.totalVentas : "0" }</div>
                                 </div>
                                 <div className="col-auto">
@@ -141,7 +141,7 @@ const DashBoard = () => {
                             <div className="row no-gutters align-items-center">
                                 <div className="col mr-2">
                                     <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                        Ingresos por Ventas</div>
+                                        Ingresos por Arriendos</div>
                                     <div className="h5 mb-0 font-weight-bold text-gray-800">{(config.totalIngresos != undefined) ? config.totalIngresos : "0"}</div>
                                 </div>
                                 <div className="col-auto">
@@ -199,7 +199,7 @@ const DashBoard = () => {
                 <div className="col-xl-8 col-lg-7">
                     <div className="card shadow mb-4">
                         <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-primary">
-                            <h6 className="m-0 font-weight-bold text-white">Ventas de los ultimos 7 días</h6>
+                            <h6 className="m-0 font-weight-bold text-white">Arriendos de los ultimos 7 días</h6>
 
                         </div>
                         <div className="card-body">
@@ -213,7 +213,7 @@ const DashBoard = () => {
                 <div className="col-xl-4 col-lg-5">
                     <div className="card shadow mb-4">
                         <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-primary">
-                            <h6 className="m-0 font-weight-bold text-white">Productos más vendidos</h6>
+                            <h6 className="m-0 font-weight-bold text-white">Productos más arrendados</h6>
                           
                         </div>
                         <div className="card-body">

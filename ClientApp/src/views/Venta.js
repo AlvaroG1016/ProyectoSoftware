@@ -352,7 +352,7 @@ const Venta = () => {
                                 <Row className="mb-2">
                                     <Col sm={12}>
                                         <InputGroup size="sm" >
-                                            <InputGroupText>IGV (18%):</InputGroupText>
+                                            <InputGroupText>IVA (19%):</InputGroupText>
                                             <Input disabled value={igv} />
                                         </InputGroup>
                                     </Col>
@@ -377,7 +377,7 @@ const Venta = () => {
                         <Card>
                             <CardBody>
                                 <Button color="success" block onClick={terminarVenta} >
-                                    <i className="fas fa-money-check"></i> Terminar Venta</Button>
+                                    <i className="fas fa-money-check"></i> Terminar Arriendo</Button>
                             </CardBody>
                         </Card>
                     </Col>

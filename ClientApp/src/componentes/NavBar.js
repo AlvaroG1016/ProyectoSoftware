@@ -31,7 +31,7 @@ const NavBar = () => {
                 <div className="sidebar-brand-icon">
                     <i className="fas fa-desktop"></i>
                 </div>
-                <div className="sidebar-brand-text mx-3">Mi Tienda</div>
+                <div className="sidebar-brand-text mx-3">Motorcycle Renting</div>
             </Link>
 
 
@@ -88,13 +88,13 @@ const NavBar = () => {
                 <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVenta"
                     aria-expanded="true" aria-controls="collapseVenta">
                     <i className="fas fa-fw fa-tag"></i>
-                    <span>Ventas</span>
+                    <span>Arriendos</span>
                 </a>
                 <div id="collapseVenta" className="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div className="bg-white py-2 collapse-inner rounded">
-                        <NavLink to="/venta" className="collapse-item">Nueva Venta</NavLink>
-                        <NavLink to="/historialventa" className="collapse-item">Historial Venta</NavLink>
+                        <NavLink to="/venta" className="collapse-item">Nuevo Arriendo</NavLink>
+                        <NavLink to="/historialventa" className="collapse-item">Historial Arriendos</NavLink>
                     </div>
                 </div>
             </li>
@@ -110,7 +110,7 @@ const NavBar = () => {
                     <div id="collapseReporte" className="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
-                            <NavLink to="/reporteventa" className="collapse-item">Reporte Venta</NavLink>
+                            <NavLink to="/reporteventa" className="collapse-item">Reporte Arriendos</NavLink>
                         </div>
                     </div>
                 </li>

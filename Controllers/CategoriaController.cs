@@ -23,7 +23,7 @@ namespace ReactVentas.Controllers
             try
             {
                 lista = await _context.Categoria.OrderByDescending(c => c.IdCategoria).ToListAsync();
-                return StatusCode(StatusCodes.Status200OK, lista);
+                return Ok(lista);
             }
             catch (Exception ex)
             {
